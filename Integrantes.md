@@ -1,4 +1,0 @@
-André
-Guilherme
-Mel
-Wesley
