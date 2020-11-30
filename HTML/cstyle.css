@@ -1,0 +1,45 @@
+body {
+  background-image: url(fundo.png);
+  background-repeat: no-repeat;
+  margin-top: 3%
+}
+
+.topo{
+  border-style: solid;
+  width: 60%; /* largura do box */
+  padding: 0 5%; /* padding à esquerda e à direita */
+  border: solid black;
+  border-width: 0 1%; /* borda à esquerda e à direita */
+  border-left-width: 3px;
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  border-bottom-left-radius: 5em;
+  background-color: #6666;
+  text-align: center;
+
+}
+
+.register{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Georgia;
+}
+
+.info{
+  border-style: solid;
+  width: 50%; /* largura do box */
+  height: 460px;
+  padding: 0 5%; /* padding à esquerda e à direita */
+  border: solid black;
+  border-width: 0 1%; /* borda à esquerda e à direita */
+  border-left-width: 3px;
+  border-top-right-radius: 0em;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 0em;
+  border-bottom-left-radius: 5em;
+  background-color: #6666;
+  text-align: center;
+  margin-top: 3%;
+  
+}

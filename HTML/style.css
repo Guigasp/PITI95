@@ -1,0 +1,104 @@
+body {
+  background-image: url(fundo.png);
+  background-repeat: no-repeat;
+}
+  
+
+#borda{
+
+  border-style: solid;
+  width: 50%; /* largura do box */
+  padding: 0 5%; /* padding à esquerda e à direita */
+  border: solid black;
+  border-width: 0 1%; /* borda à esquerda e à direita */
+  border-left-width: 0px;
+  margin-top: 3%;
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 5em;
+  background-color: #6666;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 40px;
+letter-spacing: 6px;
+word-spacing: 6px;
+color: #B5B2B7;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: small-caps;
+text-transform: capitalize;
+
+
+}
+
+#login{
+  border-right: 50px;
+  border-style: solid;
+  width: 35%; /* largura do box */
+  padding: 0 5%; /* padding à esquerda e à direita */
+  border: solid black;
+  border-width: 0 1%; /* borda à esquerda e à direita */
+  border-left-width: 1%;
+  margin-top: 3%;
+  margin-left: 50px;
+  float: left;
+}
+
+.letra{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #B5B2B7;
+  font-style: italic;
+  text-align: center;
+}
+
+.invalido{
+  border-style: solid;
+  width: 60%; /* largura do box */
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  border-bottom-left-radius: 5em;
+
+  
+  margin-top: 3px;
+  margin-left: 30px;
+  text-align: center;
+  color: #DC143C;
+  font-size: 17px;
+}
+
+#info{
+  border-style: solid;
+  width: 50%; /* largura do box */
+  height: 450px;
+  padding: 0 5%; /* padding à esquerda e à direita */
+  border: solid black;
+  border-width: 0 1%; /* borda à esquerda e à direita */
+  border-left-width: 3px;
+  border-right-width: 0px;
+  margin-top: 3%;
+  margin-left: 10%;
+  border-top-left-radius: 600em;
+  border-bottom-left-radius: 600em;
+  background-color: #6666; 
+  float: left;
+
+}
+
+.texto {
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 15px;
+letter-spacing: 1.4px;
+word-spacing: 2.2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+text-align: right;
+}
+.texto2{
+  text-align: right;
+  margin-top: 15%;
+  font-weight: bold;
+}
