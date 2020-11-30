@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tabela">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:foregroundGravity="center_horizontal"
+        android:padding="10dp"
+        android:src="@drawable/projetologo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quem somos"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#21550E"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Somos uma empresa chamada de Eco Maps que foi fundada no ano de 2019 por André, Antônio, Guilherme, Mel e Wesley. Com a ideia de melhorar a forma que o lixo eletrônico é descartado, visando facilitar a comunicação entre as pessoas que tem lixos eletrônicos em casa ou em qualquer ambiente, com o ponto de descarte de lixos eletrônicos mais próximo da sua localização."
+        android:textAlignment="center"
+        android:textColor="#21550E"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+</LinearLayout>
